@@ -1,0 +1,44 @@
+{
+    "locais" : [{
+
+        "id":0, 
+        "nome": "Parque Ibirapuera",
+        "preco": 0,
+        "descricao": "O Parque Ibirapuera é um parque urbano localizado na cidade de São Paulo, Brasil. É o maior parque da cidade e um dos mais visitados da América Latina, recebendo cerca de 14 milhões de visitantes por ano.",
+
+        "localizacao": [
+            -23.588333,
+            -46.658890
+        ],
+        "imagem":"https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-sao-paulo-capa2019-04-820x430.jpg",
+        "categoria": "ecológico"
+    },
+    {
+
+        "id":1, 
+        "nome": "Museu de Arte de São Paulo",
+        "preco": 50,
+        "descricao": "O Museu de Arte de São Paulo (MASP) é um museu de arte localizado na cidade de São Paulo, Brasil. É um dos mais renomados museus da América Latina, e possui uma coleção de mais de 10 mil obras de arte, incluindo pinturas, esculturas, gravuras e fotografias.",
+        "localizacao": [
+            -23.561913,
+            -46.654257
+        ],
+
+        "imagem":"http://github.com/lucassperanzini.png",
+
+        "categoria": "cultural"
+    },
+    {
+        "id":2,
+        "nome": "Mercado Municipal de São Paulo",
+        "preco": 0,
+        "descricao": "O Mercado Municipal de São Paulo é um mercado público localizado na cidade de São Paulo, Brasil. É um dos maiores mercados da América Latina, e possui uma variedade de produtos, incluindo frutas, verduras, carnes, peixes, queijos, vinhos e doces.",
+        "localizacao": [
+            -23.538707,
+            -46.655865
+        ],
+        "imagem": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-sao-paulo-capa2019-04-820x430.jpg",
+        "categoria": "gastronômico"
+    }
+     ]
+}
