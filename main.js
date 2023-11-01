@@ -32,13 +32,11 @@ function ExibirLocaisTela(){
             <p>${local.descricao}</p>
     </div>
 
-    <div id="map" style="width: 100%; height: 400px;"></div>
-
-    script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0N8_yBL4fAVXY_1lSt6Zk5nV7wgNjyCo&callback=initMap"></script>
+   
         
         
         `
-        initMap(local)
+
 
         
     });

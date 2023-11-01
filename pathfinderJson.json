@@ -1,44 +1,127 @@
 {
-    "locais" : [{
+    "locais" : [
 
-        "id":0, 
-        "nome": "Parque Ibirapuera",
-        "preco": 0,
-        "descricao": "O Parque Ibirapuera é um parque urbano localizado na cidade de São Paulo, Brasil. É o maior parque da cidade e um dos mais visitados da América Latina, recebendo cerca de 14 milhões de visitantes por ano.",
-
-        "localizacao": [
-            -23.588333,
-            -46.658890
-        ],
-        "imagem":"https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-sao-paulo-capa2019-04-820x430.jpg",
-        "categoria": "ecológico"
-    },
-    {
-
-        "id":1, 
-        "nome": "Museu de Arte de São Paulo",
-        "preco": 50,
-        "descricao": "O Museu de Arte de São Paulo (MASP) é um museu de arte localizado na cidade de São Paulo, Brasil. É um dos mais renomados museus da América Latina, e possui uma coleção de mais de 10 mil obras de arte, incluindo pinturas, esculturas, gravuras e fotografias.",
-        "localizacao": [
-            -23.561913,
-            -46.654257
-        ],
-
-        "imagem":"http://github.com/lucassperanzini.png",
-
-        "categoria": "cultural"
-    },
-    {
-        "id":2,
-        "nome": "Mercado Municipal de São Paulo",
-        "preco": 0,
-        "descricao": "O Mercado Municipal de São Paulo é um mercado público localizado na cidade de São Paulo, Brasil. É um dos maiores mercados da América Latina, e possui uma variedade de produtos, incluindo frutas, verduras, carnes, peixes, queijos, vinhos e doces.",
-        "localizacao": [
-            -23.538707,
-            -46.655865
-        ],
-        "imagem": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-sao-paulo-capa2019-04-820x430.jpg",
-        "categoria": "gastronômico"
-    }
-     ]
+        {
+            "id": 0,
+            "nome": "Parque Ibirapuera",
+            "preco": 0,
+            "descricao": "O Parque Ibirapuera é um parque urbano localizado na cidade de São Paulo, Brasil. É o maior parque da cidade e um dos mais visitados da América Latina, recebendo cerca de 14 milhões de visitantes por ano.",
+            "localizacao": [-23.588333, -46.658890],
+            "imagem": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-sao-paulo-capa2019-04-820x430.jpg",
+            "categoria": "ecológico",
+            "regiao": "Ibirapuera"
+        },
+        {
+            "id": 1,
+            "nome": "Museu de Arte de São Paulo",
+            "preco": 50,
+            "descricao": "O Museu de Arte de São Paulo (MASP) é um museu de arte localizado na cidade de São Paulo, Brasil. É um dos mais renomados museus da América Latina, e possui uma coleção de mais de 10 mil obras de arte, incluindo pinturas, esculturas, gravuras e fotografias.",
+            "localizacao": [-23.561913, -46.654257],
+            "imagem": "https://lh3.googleusercontent.com/p/AF1QipOdseXc1Z3i50UN3Zou_sjbolii6FGn2gWbiSjM=s680-w680-h510",
+            "categoria": "cultural",
+            "regiao": "Paulista"
+        },
+        {
+            "id": 2,
+            "nome": "Mercado Municipal de São Paulo",
+            "preco": 0,
+            "descricao": "O Mercado Municipal de São Paulo é um mercado público localizado na cidade de São Paulo, Brasil. É um dos maiores mercados da América Latina, e possui uma variedade de produtos, incluindo frutas, verduras, carnes, peixes, queijos, vinhos e doces.",
+            "localizacao": [-23.538707, -46.655865],
+            "imagem": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-sao-paulo-capa2019-04-820x430.jpg",
+            "categoria": "gastronômico",
+            "regiao": "Centro"
+        },
+        {
+            "id": 4,
+            "nome": "Beco do Batman",
+            "preco": 0,
+            "descricao": "O Beco do Batman é uma famosa viela no bairro Vila Madalena, conhecido por seus murais de grafite e arte de rua vibrante.",
+            "localizacao": [-23.556608, -46.686462],
+            "imagem": "https://example.com/beco_do_batman.jpg",
+            "categoria": "urbano",
+            "regiao": "Vila Madalena"
+        },
+        {
+            "id": 5,
+            "nome": "Teatro Municipal de São Paulo",
+            "preco": 60,
+            "descricao": "O Teatro Municipal é um dos mais importantes teatros da cidade, com uma arquitetura impressionante e uma rica programação cultural.",
+            "localizacao": [-23.5452, -46.6388],
+            "imagem": "https://example.com/teatro_municipal.jpg",
+            "categoria": "cultural",
+            "regiao": "Sé"
+        },
+        {
+            "id": 6,
+            "nome": "Museu do Futebol",
+            "preco": 25,
+            "descricao": "Localizado no Estádio do Pacaembu, o Museu do Futebol oferece uma jornada pela história do futebol brasileiro.",
+            "localizacao": [-23.5489, -46.6658],
+            "imagem": "https://example.com/museu_do_futebol.jpg",
+            "categoria": "cultural",
+            "regiao": "Pacaembu"
+        },
+        {
+            "id": 7,
+            "nome": "Pinacoteca do Estado de São Paulo",
+            "preco": 30,
+            "descricao": "A Pinacoteca é um dos mais importantes museus de arte visual em São Paulo, com uma vasta coleção de arte brasileira.",
+            "localizacao": [-23.5346, -46.6333],
+            "imagem": "https://example.com/pinacoteca.jpg",
+            "categoria": "cultural",
+            "regiao": "Luz"
+        },
+        {
+            "id": 8,
+            "nome": "Aquário de São Paulo",
+            "preco": 50,
+            "descricao": "O maior aquário da América Latina, com várias espécies de animais aquáticos.",
+            "localizacao": [-23.5933, -46.6142],
+            "imagem": "https://example.com/aquario_sp.jpg",
+            "categoria": "ecológico",
+            "regiao": "Ipiranga"
+        },
+        {
+            "id": 9,
+            "nome": "Parque da Independência",
+            "preco": 0,
+            "descricao": "Onde se localiza o Museu do Ipiranga e o Monumento à Independência, com ampla área verde e espaço para lazer.",
+            "localizacao": [-23.5852, -46.6103],
+            "imagem": "https://example.com/parque_independencia.jpg",
+            "categoria": "cultural",
+            "regiao": "Ipiranga"
+        },
+        {
+            "id": 10,
+            "nome": "Catedral da Sé",
+            "preco": 0,
+            "descricao": "A Catedral Metropolitana de São Paulo, conhecida como Catedral da Sé, é um dos cinco maiores templos neogóticos do mundo.",
+            "localizacao": [-23.5504, -46.6338],
+            "imagem": "https://example.com/catedral_se.jpg",
+            "categoria": "cultural",
+            "regiao": "Sé"
+        },
+        {
+            "id": 11,
+            "nome": "Museu da Imagem e do Som (MIS)",
+            "preco": 20,
+            "descricao": "Dedicado a conservação, pesquisa e difusão de registros de imagens e sons relacionados à cultura brasileira.",
+            "localizacao": [-23.5565, -46.6787],
+            "imagem": "https://example.com/mis_sp.jpg",
+            "categoria": "cultural",
+            "regiao": "Jardim Europa"
+        },
+        {
+            "id": 12,
+            "nome": "Rua 25 de Março",
+            "preco": 0,
+            "descricao": "Conhecida por ser um dos maiores centros de comércio popular do mundo, oferece uma variedade de produtos a preços acessíveis.",
+            "localizacao": [-23.5402, -46.6315],
+            "imagem": "https://example.com/rua_25_marco.jpg",
+            "categoria": "compras",
+            "regiao": "Sé"
+        }
+]
 }
+    
+     
