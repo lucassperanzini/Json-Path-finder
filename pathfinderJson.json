@@ -8,7 +8,7 @@
             "descricao": "O Parque Ibirapuera é um parque urbano localizado na cidade de São Paulo, Brasil. É o maior parque da cidade e um dos mais visitados da América Latina, recebendo cerca de 14 milhões de visitantes por ano.",
             "localizacao": [-23.588333, -46.658890],
             "imagem": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-sao-paulo-capa2019-04-820x430.jpg",
-            "categoria": "ecológico",
+            "categoria": ["ecológico","esportivo"],
             "regiao": "Ibirapuera"
         },
         {
@@ -120,7 +120,135 @@
             "imagem": "https://example.com/rua_25_marco.jpg",
             "categoria": "compras",
             "regiao": "Sé"
-        }
+        },
+
+        {
+            "id": 13,
+            "nome": "Shopping Morumbi",
+            "preco": 0,
+            "descricao": "Um dos maiores shoppings da América Latina, com lojas de grifes nacionais e internacionais, além de restaurantes, cinemas e opções de lazer para toda a família.",
+            "localizacao": [-23.6543, -46.7132],
+            "imagem": "https://example.com/shopping_morumbi.jpg",
+            "categoria": "compras",
+            "regiao": "Morumbi"
+          },
+
+          [
+            {
+              "id": 14,
+              "nome": "Bar Brahma",
+              "preco": 0,
+              "descricao": "Um dos bares mais tradicionais de São Paulo, com música ao vivo e ambiente animado.",
+              "localizacao": [-23.5467, -46.6395],
+              "imagem": "https://example.com/bar_brahma.jpg",
+              "categoria": "noturno",
+              "regiao": "Sé"
+            },
+            {
+              "id": 15,
+              "nome": "Vila Madalena",
+              "preco": 0,
+              "descricao": "Um bairro conhecido por sua vida noturna agitada, com diversos bares, restaurantes e clubes.",
+              "localizacao": [-23.5538, -46.7011],
+              "imagem": "https://example.com/vila_madalena.jpg",
+              "categoria": "noturno",
+              "regiao": "Pinheiros"
+            },
+            {
+              "id": 16,
+              "nome": "Casa do Porco",
+              "preco": 0,
+              "descricao": "Um restaurante especializado em pratos de porco, com ambiente sofisticado e carta de vinhos extensa.",
+              "localizacao": [-23.5490, -46.6440],
+              "imagem": "https://example.com/casa_do_porco.jpg",
+              "categoria": "noturno",
+              "regiao": "Sé"
+            },
+            {
+              "id": 17,
+              "nome": "Teatro Municipal de São Paulo",
+              "preco": 0,
+              "descricao": "Um dos teatros mais importantes do Brasil, com programação diversificada de espetáculos.",
+              "localizacao": [-23.5458, -46.6539],
+              "imagem": "https://example.com/teatro_municipal_sp.jpg",
+              "categoria": "noturno",
+              "regiao": "Sé"
+            },
+            {
+                "id": 18,
+                "nome": "SESC Paulista",
+                "preco": 0,
+                "descricao": "Um centro cultural com diversas opções de atividades esportivas, como natação, ginástica, musculação, dança e artes marciais.",
+                "localizacao": [-23.5603, -46.6538],
+                "imagem": "https://example.com/sesc_paulista.jpg",
+                "categoria": "esportivo",
+                "regiao": "Bela Vista"
+              },
+              {
+                "id": 19,
+                "nome": "Academia Smart Fit",
+                "preco": 0,
+                "descricao": "Uma rede de academias de ginástica com preços acessíveis.",
+                "localizacao": [-23.5543, -46.6495],
+                "imagem": "https://example.com/academia_smart_fit.jpg",
+                "categoria": "esportivo",
+                "regiao": "Pinheiros"
+              },
+              {
+                "id": 20,
+                "nome": "Clube Atlético Monte Líbano",
+                "preco": 0,
+                "descricao": "Um clube com diversas opções de atividades esportivas, como natação, ginástica, musculação, tênis, futebol e basquete.",
+                "localizacao": [-23.5467, -46.6395],
+                "imagem": "https://example.com/clube_atletico_monte_libano.jpg",
+                "categoria": "esportivo",
+                "regiao": "Sé"
+              },
+              {
+                "id": 21,
+                "nome": "Shopping Eldorado",
+                "preco": 0,
+                "descricao": "Um dos maiores shoppings de São Paulo, oferece uma grande variedade de lojas e restaurantes.",
+                "localizacao": [-23.5667, -46.6956],
+                "imagem": "https://example.com/shopping_eldorado.jpg",
+                "categoria": "compras",
+                "regiao": "Pinheiros"
+            },
+            {
+                "id": 22,
+                "nome": "Shopping Pátio Paulista",
+                "preco": 0,
+                "descricao": "Localizado na Avenida Paulista, oferece uma grande variedade de lojas e restaurantes.",
+                "localizacao": [-23.5675, -46.6472],
+                "imagem": "https://example.com/shopping_paulista.jpg",
+                "categoria": "compras",
+                "regiao": "Bela Vista"
+            },
+            {
+                "id": 23,
+                "nome": "Shopping Anália Franco",
+                "preco": 0,
+                "descricao": "Localizado na zona leste de São Paulo, oferece uma grande variedade de lojas e restaurantes.",
+                "localizacao": [-23.5572, -46.5631],
+                "imagem": "https://example.com/shopping_analia_franco.jpg",
+                "categoria": "compras",
+                "regiao": "Tatuapé"
+            },
+            {
+                "id": 24,
+                "nome": "Shopping Center Norte",
+                "preco": 0,
+                "descricao": "Localizado na zona norte de São Paulo, oferece uma grande variedade de lojas e restaurantes.",
+                "localizacao": [-23.5167, -46.6167],
+                "imagem": "https://example.com/shopping_center_norte.jpg",
+                "categoria": "compras",
+                "regiao": "Vila Guilherme"
+            },
+
+              
+          ]
+          
+          
 ]
 }
     
